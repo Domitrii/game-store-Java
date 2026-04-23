@@ -1,0 +1,16 @@
+com/example/gameplatform/repository/UserRepository.class
+com/example/gameplatform/model/PurchaseStatus.class
+com/example/gameplatform/service/UserService.class
+com/example/gameplatform/repository/PurchaseRepository.class
+com/example/gameplatform/controller/PurchaseController.class
+com/example/gameplatform/model/GameGenre.class
+com/example/gameplatform/service/GameService.class
+com/example/gameplatform/controller/GameController.class
+com/example/gameplatform/model/User.class
+com/example/gameplatform/controller/AuthController.class
+com/example/gameplatform/config/SecurityConfig.class
+com/example/gameplatform/repository/GameRepository.class
+com/example/gameplatform/model/Purchase.class
+com/example/gameplatform/service/PurchaseService.class
+com/example/gameplatform/GamePlatformApplication.class
+com/example/gameplatform/model/Game.class

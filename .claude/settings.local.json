@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mvn test *)",
+      "Bash(./mvnw test *)",
+      "Read(//Users/dimusik/.sdkman/candidates/maven/current/bin/**)",
+      "Read(//usr/share/maven/bin/**)",
+      "Bash(chmod +x /Users/dimusik/Documents/Ukr-Uni/game-platform/mvnw)",
+      "Bash(./mvnw spring-boot:run)",
+      "Bash(echo \"PID: $!\")"
+    ]
+  }
+}

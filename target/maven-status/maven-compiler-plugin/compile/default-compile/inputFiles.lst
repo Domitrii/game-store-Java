@@ -1,0 +1,16 @@
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/GamePlatformApplication.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/model/PurchaseStatus.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/model/User.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/repository/PurchaseRepository.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/controller/PurchaseController.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/service/UserService.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/repository/UserRepository.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/config/SecurityConfig.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/controller/GameController.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/model/GameGenre.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/service/GameService.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/model/Purchase.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/model/Game.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/controller/AuthController.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/service/PurchaseService.java
+/Users/dimusik/Documents/Ukr-Uni/game-platform/src/main/java/com/example/gameplatform/repository/GameRepository.java
