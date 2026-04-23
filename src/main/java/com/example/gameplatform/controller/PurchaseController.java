@@ -12,7 +12,7 @@ public class PurchaseController {
     @Autowired
     private PurchaseService purchaseService;
 
-    @PostMapping // TC-17 [cite: 285]
+    @PostMapping
     public ResponseEntity<Purchase> purchase(@RequestParam String userId, @RequestParam Long gameId) {
         return ResponseEntity.status(201).body(purchaseService.buyGame(userId, gameId));
     }
