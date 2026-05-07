@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    container_name: game-platform
+    ports:
+      - "8080:8080"
+    environment:
+      # Override the JWT secret in production with a strong random value
+      JWT_SECRET: "game-platform-super-secret-key-must-be-at-least-32-characters"
+      JWT_EXPIRATION_SECONDS: "86400"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8080/v3/api-docs || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s

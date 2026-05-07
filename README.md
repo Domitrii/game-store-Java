@@ -12,3 +12,10 @@ curl -X POST http://localhost:8080/auth/register \
 
 # Покупка гри (userId з відповіді реєстрації, gameId = 1..8)
 curl -X POST "http://localhost:8080/purchase?userId=<твій-uuid>&gameId=2"
+
+
+# тестовий аккаунт
+ { "email": "test@example.com", "password": "test123" }
+
+# Старт
+docker compose up --build
