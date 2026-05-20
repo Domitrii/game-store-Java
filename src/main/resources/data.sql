@@ -1,3 +1,4 @@
+ALTER TABLE games ALTER COLUMN id RESTART WITH 100;
 INSERT INTO games (id, title, genre, platform, price, publisher, release_date, short_description, thumbnail) VALUES
 (1, 'The Witcher 3: Wild Hunt', 'RPG', 'PC', 29.99, 'CD Projekt Red', '2015-05-19', 'Open world RPG with a rich narrative and stunning world design.', 'https://cdn.example.com/witcher3.jpg'),
 (2, 'Counter-Strike 2', 'SHOOTER', 'PC', 0.00, 'Valve', '2023-09-27', 'Competitive tactical first-person shooter.', 'https://cdn.example.com/cs2.jpg'),

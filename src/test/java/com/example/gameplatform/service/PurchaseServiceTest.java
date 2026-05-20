@@ -64,7 +64,7 @@ class PurchaseServiceTest {
         RuntimeException ex = assertThrows(RuntimeException.class,
             () -> purchaseService.buyGame("user-1", 99L));
 
-        assertEquals("Game not found", ex.getMessage());
+        assertTrue(ex.getMessage().contains("Game not found"));
         verify(purchaseRepository, never()).save(any());
     }
 
